@@ -1,0 +1,33 @@
+# robots.txt para MAS - Melgoza Advanced Solutions
+# https://tudominio.com/robots.txt
+
+# Permitir a todos los bots acceder a todo el sitio
+User-agent: *
+Allow: /
+
+# Bloquear acceso a carpetas del sistema (si existen)
+Disallow: /cgi-bin/
+Disallow: /.well-known/
+
+# Bloquear archivos de configuración
+Disallow: /.htaccess
+Disallow: /.env
+
+# Sitemap (actualiza con tu dominio real)
+Sitemap: https://tudominio.com/sitemap.xml
+
+# Crawl-delay (opcional, útil si tienes muchos bots)
+# Crawl-delay: 10
+
+# Bots específicos (opcional)
+# Google
+User-agent: Googlebot
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
+
+# Yahoo
+User-agent: Slurp
+Allow: /

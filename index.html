@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <title>MAS - Melgoza Advanced Solutions | Soluciones Automotrices Inteligentes</title>
+    <meta name="description" content="MAS ofrece soluciones tecnológicas avanzadas para el mantenimiento automotriz. MiaGarage para usuarios y talleres mecánicos.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="favicon.png">
+    
+    <!-- Preload critical fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <img src="images/mas-logo.png" alt="MAS Solutions" class="logo-image">
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link">Inicio</a>
+                <a href="#products" class="nav-link">Productos</a>
+                <a href="#features" class="nav-link">Características</a>
+                <a href="#about" class="nav-link">Nosotros</a>
+                <a href="#contact" class="nav-link">Contacto</a>
+            </div>
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Melgoza Advanced Solutions</span>
+                </h1>
+                <p class="hero-subtitle">Inteligencia Artificial accesible para el mantenimiento automotriz</p>
+                <p class="hero-description">
+                    Haciendo que la IA sea fácil de usar y a costos accesibles para todos. Más de 20 años de experiencia en mecánica automotriz ahora en soluciones digitales innovadoras.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#products" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i> Descubre MiaGarage
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i> Contáctanos
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-card card-1">
+                    <i class="fas fa-tools"></i>
+                    <span>Gestión Inteligente</span>
+                </div>
+                <div class="floating-card card-2">
+                    <i class="fas fa-mobile-alt"></i>
+                    <span>Apps Móviles</span>
+                </div>
+                <div class="floating-card card-3">
+                    <i class="fas fa-brain"></i>
+                    <span>IA Integrada</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nuestros Productos</h2>
+                <p class="section-subtitle">Soluciones diseñadas para cada necesidad</p>
+            </div>
+            
+            <div class="products-grid">
+                <!-- MiaGarage Usuario -->
+                <div class="product-card">
+                    <div class="product-logo-container">
+                        <img src="images/miagarage-logo.png" alt="MiaGarage" class="product-logo">
+                    </div>
+                    <h3 class="product-title">MiaGarage Usuario</h3>
+                    <p class="product-status">
+                        <span class="status-badge live">En Producción</span>
+                    </p>
+                    <p class="product-description">
+                        La aplicación perfecta para dueños de vehículos que desean llevar un registro completo y profesional del mantenimiento de sus autos.
+                    </p>
+                    <h4 class="features-subtitle">Características Básicas</h4>
+                    <ul class="product-features">
+                        <li><i class="fas fa-check"></i> Historial completo de mantenimiento</li>
+                        <li><i class="fas fa-check"></i> Recordatorios automáticos</li>
+                        <li><i class="fas fa-check"></i> Registro de gastos</li>
+                        <li><i class="fas fa-check"></i> Múltiples vehículos</li>
+                        <li><i class="fas fa-check"></i> Documentos digitales</li>
+                    </ul>
+                    <h4 class="features-subtitle premium-features"><i class="fas fa-crown"></i> Funciones Premium en Desarrollo</h4>
+                    <ul class="product-features premium">
+                        <li><i class="fas fa-star"></i> Gestión de información automática por placa</li>
+                        <li><i class="fas fa-star"></i> Guías para revisar vehículos usados antes de comprar</li>
+                        <li><i class="fas fa-star"></i> Sistema para poner mantenimiento en orden</li>
+                        <li><i class="fas fa-star"></i> Registro inteligente de mantenimiento</li>
+                    </ul>
+                    <div class="product-actions">
+                        <a href="https://miagarage.lovable.app" target="_blank" class="btn btn-outline">
+                            <i class="fas fa-external-link-alt"></i> Ver App
+                        </a>
+                    </div>
+                </div>
+
+                <!-- MiaGarage Taller -->
+                <div class="product-card featured">
+                    <div class="featured-badge">
+                        <i class="fas fa-star"></i> Próximamente
+                    </div>
+                    <div class="product-logo-container">
+                        <img src="images/miagarage-logo.png" alt="MiaGarage" class="product-logo">
+                    </div>
+                    <h3 class="product-title">MiaGarage Taller</h3>
+                    <p class="product-status">
+                        <span class="status-badge development">En Desarrollo</span>
+                    </p>
+                    <p class="product-description">
+                        Solución integral para talleres mecánicos pequeños con IA integrada para gestión eficiente de servicios y atención al cliente.
+                    </p>
+                    <ul class="product-features">
+                        <li><i class="fas fa-check"></i> Recepción inteligente con IA</li>
+                        <li><i class="fas fa-check"></i> Gestión de órdenes de trabajo</li>
+                        <li><i class="fas fa-check"></i> Cotizaciones automáticas</li>
+                        <li><i class="fas fa-check"></i> Asesor de mantenimiento IA</li>
+                        <li><i class="fas fa-check"></i> Base de conocimiento técnico</li>
+                        <li><i class="fas fa-check"></i> Control de inventario</li>
+                    </ul>
+                    <div class="product-actions">
+                        <button class="btn btn-primary" onclick="notifyMe('taller')">
+                            <i class="fas fa-bell"></i> Notificarme al Lanzar
+                        </button>
+                    </div>
+                </div>
+
+                <!-- ElAmortiguador.com -->
+                <div class="product-card">
+                    <div class="product-logo-container">
+                        <img src="images/elamortiguador-logo.png" alt="ElAmortiguador.com" class="product-logo">
+                    </div>
+                    <h3 class="product-title">ElAmortiguador.com</h3>
+                    <p class="product-status">
+                        <span class="status-badge live">Activo</span>
+                    </p>
+                    <p class="product-description">
+                        Portal especializado en reseñas y recomendaciones de amortiguadores. Tu guía confiable para elegir los mejores componentes de suspensión.
+                    </p>
+                    <ul class="product-features">
+                        <li><i class="fas fa-check"></i> Reseñas detalladas de amortiguadores</li>
+                        <li><i class="fas fa-check"></i> Comparativas de marcas</li>
+                        <li><i class="fas fa-check"></i> Guías de compra especializadas</li>
+                        <li><i class="fas fa-check"></i> Recomendaciones por tipo de vehículo</li>
+                        <li><i class="fas fa-check"></i> Consejos de mantenimiento</li>
+                    </ul>
+                    <div class="product-actions">
+                        <a href="https://elamortiguador.com" target="_blank" class="btn btn-outline">
+                            <i class="fas fa-external-link-alt"></i> Visitar Sitio
+                        </a>
+                    </div>
+                </div>
+
+                <!-- ServicioMelgoza.com -->
+                <div class="product-card">
+                    <div class="product-logo-container">
+                        <img src="images/serviciomelgoza-logo.png" alt="Servicio Melgoza" class="product-logo">
+                    </div>
+                    <h3 class="product-title">Servicio Melgoza</h3>
+                    <p class="product-status">
+                        <span class="status-badge live">Activo</span>
+                    </p>
+                    <p class="product-description">
+                        Taller mecánico especializado en suspensión, frenos y servicios preventivos. Experiencia profesional y atención de calidad.
+                    </p>
+                    <ul class="product-features">
+                        <li><i class="fas fa-check"></i> Especialistas en suspensión</li>
+                        <li><i class="fas fa-check"></i> Servicio de frenos profesional</li>
+                        <li><i class="fas fa-check"></i> Mantenimiento preventivo</li>
+                        <li><i class="fas fa-check"></i> Diagnósticos especializados</li>
+                        <li><i class="fas fa-check"></i> Más de 20 años de experiencia</li>
+                    </ul>
+                    <div class="product-actions">
+                        <a href="https://serviciomelgoza.com" target="_blank" class="btn btn-outline">
+                            <i class="fas fa-external-link-alt"></i> Visitar Sitio
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">¿Por qué elegir MAS?</h2>
+                <p class="section-subtitle">Innovación respaldada por experiencia</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>+20 Años de Experiencia</h3>
+                    <p>Soluciones creadas por un ingeniero mecánico con especialidad en mecánica automotriz y más de dos décadas de experiencia en el sector.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Inteligencia Artificial</h3>
+                    <p>Implementamos IA para automatizar procesos, mejorar diagnósticos y proporcionar recomendaciones precisas de mantenimiento.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Diseño Mobile-First</h3>
+                    <p>Aplicaciones optimizadas para dispositivos móviles, permitiendo acceso desde cualquier lugar en cualquier momento.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud Computing</h3>
+                    <p>Datos seguros en la nube, accesibles desde cualquier dispositivo con sincronización en tiempo real.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Análisis y Reportes</h3>
+                    <p>Estadísticas detalladas y reportes personalizados para tomar decisiones informadas sobre tu negocio o vehículo.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Soporte Especializado</h3>
+                    <p>Equipo con conocimiento técnico automotriz real para resolver dudas específicas del sector.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Sobre MAS</h2>
+                    <p class="about-description">
+                        <strong>Melgoza Advanced Solutions (MAS)</strong> nace de la visión de transformar la industria del mantenimiento automotriz mediante la tecnología.
+                    </p>
+                    <p class="about-description">
+                        Fundada por un ingeniero mecánico con especialidad en mecánica automotriz y más de 20 años de experiencia en el campo, MAS combina conocimiento técnico profundo con las últimas innovaciones en desarrollo de software e inteligencia artificial.
+                    </p>
+                    <p class="about-description">
+                        <strong>Nuestra misión:</strong> Hacer que la inteligencia artificial sea integrada en el campo del mantenimiento automotriz de una manera sencilla y a costos accesibles para cualquiera. Creamos herramientas digitales que simplifiquen la gestión del mantenimiento automotriz, tanto para usuarios individuales como para talleres profesionales.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>20+</h3>
+                            <p>Años de Experiencia</p>
+                        </div>
+                        <div class="stat">
+                            <h3>2</h3>
+                            <p>Productos en Desarrollo</p>
+                        </div>
+                        <div class="stat">
+                            <h3>100%</h3>
+                            <p>Enfoque en Calidad</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-card">
+                        <i class="fas fa-lightbulb"></i>
+                        <h4>Innovación</h4>
+                        <p>Tecnología de vanguardia aplicada al sector automotriz</p>
+                    </div>
+                    <div class="about-card">
+                        <i class="fas fa-handshake"></i>
+                        <h4>Confianza</h4>
+                        <p>Soluciones respaldadas por experiencia real</p>
+                    </div>
+                    <div class="about-card">
+                        <i class="fas fa-rocket"></i>
+                        <h4>Crecimiento</h4>
+                        <p>Evolucionando constantemente con el mercado</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Mantente Conectado</h2>
+                <p class="section-subtitle">Únete a la revolución del mantenimiento automotriz</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-form-container">
+                    <h3>Notificaciones de Lanzamiento</h3>
+                    <p>Regístrate para recibir actualizaciones sobre nuestros productos:</p>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Tu nombre" required>
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Tu correo electrónico" required>
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="form-group">
+                            <select id="interest" required>
+                                <option value="">Estoy interesado en...</option>
+                                <option value="usuario">MiaGarage Usuario</option>
+                                <option value="taller">MiaGarage Taller</option>
+                                <option value="ambos">Ambos Productos</option>
+                            </select>
+                            <i class="fas fa-tag"></i>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="4" placeholder="Cuéntanos sobre tus necesidades (opcional)"></textarea>
+                            <i class="fas fa-comment"></i>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <i class="fas fa-paper-plane"></i> Enviar
+                        </button>
+                    </form>
+                </div>
+
+                <div class="contact-info">
+                    <div class="info-card">
+                        <i class="fas fa-envelope"></i>
+                        <h4>Email</h4>
+                        <p>admin@elamortiguador.com</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h4>Apps MiaGarage</h4>
+                        <a href="https://miagarage.lovable.app" target="_blank">Usuario (Activo)</a>
+                        <p style="margin-top: 0.5rem; font-size: 0.875rem;">Taller (Próximamente)</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-globe"></i>
+                        <h4>Portales Web</h4>
+                        <a href="https://elamortiguador.com" target="_blank">ElAmortiguador.com</a>
+                        <a href="https://serviciomelgoza.com" target="_blank" style="display: block; margin-top: 0.5rem;">ServicioMelgoza.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <i class="fas fa-car-side"></i>
+                        <span class="logo-text"><strong>MAS</strong> Solutions</span>
+                    </div>
+                    <p>Melgoza Advanced Solutions</p>
+                    <p class="footer-tagline">Innovación en Mantenimiento Automotriz</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Enlaces Rápidos</h4>
+                    <a href="#home">Inicio</a>
+                    <a href="#products">Productos</a>
+                    <a href="#features">Características</a>
+                    <a href="#about">Nosotros</a>
+                    <a href="#contact">Contacto</a>
+                </div>
+                <div class="footer-products">
+                    <h4>Nuestros Productos</h4>
+                    <a href="https://miagarage.lovable.app" target="_blank">MiaGarage Usuario</a>
+                    <a href="#products">MiaGarage Taller</a>
+                    <a href="https://elamortiguador.com" target="_blank">ElAmortiguador.com</a>
+                    <a href="https://serviciomelgoza.com" target="_blank">Servicio Melgoza</a>
+                </div>
+                <div class="footer-social">
+                    <h4>Síguenos</h4>
+                    <div class="social-links">
+                        <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Melgoza Advanced Solutions. Todos los derechos reservados.</p>
+                <p class="footer-made">Hecho con <i class="fas fa-heart"></i> por MAS</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Notification Modal -->
+    <div id="notificationModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>¡Gracias por tu interés!</h3>
+                <button class="modal-close" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <i class="fas fa-check-circle success-icon"></i>
+                <p>Te notificaremos cuando <strong id="productName"></strong> esté disponible.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

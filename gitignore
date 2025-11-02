@@ -1,0 +1,178 @@
+# ================================================
+# .gitignore para MAS - Melgoza Advanced Solutions
+# ================================================
+
+# ===================================
+# Sistema Operativo
+# ===================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===================================
+# Editores e IDEs
+# ===================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+.history/
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+Session.vim
+Sessionx.vim
+.netrwhist
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ===================================
+# Node.js (por si usas herramientas)
+# ===================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ===================================
+# Archivos temporales
+# ===================================
+
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.cache
+*.pid
+*.seed
+*.pid.lock
+
+# ===================================
+# Archivos de desarrollo local
+# ===================================
+
+# Variables de entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Configuraciones locales
+config.local.js
+*.local
+
+# ===================================
+# Archivos de build/compilación
+# ===================================
+
+dist/
+build/
+*.min.js
+*.min.css
+
+# ===================================
+# Carpetas de testing
+# ===================================
+
+coverage/
+.nyc_output/
+test-results/
+*.test.js.snap
+
+# ===================================
+# Archivos específicos del proyecto
+# ===================================
+
+# Backups
+backup/
+old/
+*.backup
+
+# Archivos privados o sensibles
+private/
+secret/
+credentials/
+
+# ===================================
+# Mantener estructura de carpetas vacías
+# ===================================
+
+# Si tienes carpetas vacías que quieres mantener en Git,
+# agrega un archivo .gitkeep dentro de ellas
+
+# ===================================
+# Excepciones (archivos que SÍ se suben)
+# ===================================
+
+# Asegurarse de que estos archivos se incluyan
+!.htaccess
+!.gitignore
+!robots.txt
