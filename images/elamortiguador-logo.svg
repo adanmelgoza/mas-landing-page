@@ -1,0 +1,22 @@
+<svg width="200" height="80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="amortGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E5C8A;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Shock absorber icon -->
+  <rect x="85" y="15" width="10" height="8" fill="url(#amortGrad)"/>
+  <rect x="82" y="23" width="16" height="35" fill="none" stroke="url(#amortGrad)" stroke-width="2"/>
+  <line x1="82" y1="30" x2="98" y2="30" stroke="url(#amortGrad)" stroke-width="1.5"/>
+  <line x1="82" y1="38" x2="98" y2="38" stroke="url(#amortGrad)" stroke-width="1.5"/>
+  <line x1="82" y1="46" x2="98" y2="46" stroke="url(#amortGrad)" stroke-width="1.5"/>
+  <rect x="85" y="58" width="10" height="8" fill="url(#amortGrad)"/>
+  <circle cx="90" cy="70" r="4" fill="url(#amortGrad)"/>
+  
+  <!-- Text -->
+  <text x="15" y="35" font-family="Poppins, Arial, sans-serif" font-size="14" font-weight="bold" fill="url(#amortGrad)">El</text>
+  <text x="5" y="52" font-family="Poppins, Arial, sans-serif" font-size="16" font-weight="bold" fill="url(#amortGrad)">Amortiguador</text>
+  <text x="25" y="68" font-family="Inter, Arial, sans-serif" font-size="10" fill="#9CA3AF">.com</text>
+</svg>

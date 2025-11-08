@@ -1,0 +1,19 @@
+<svg width="200" height="80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="servicioGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#50D4B4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4A90E2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Wrench and gear icon -->
+  <circle cx="100" cy="40" r="18" fill="none" stroke="url(#servicioGrad)" stroke-width="3"/>
+  <circle cx="100" cy="40" r="8" fill="url(#servicioGrad)" opacity="0.3"/>
+  <rect x="88" y="38" width="5" height="25" rx="2" fill="url(#servicioGrad)" transform="rotate(-30 90 40)"/>
+  <circle cx="88" cy="55" r="3" fill="url(#servicioGrad)"/>
+  
+  <!-- Text -->
+  <text x="15" y="35" font-family="Poppins, Arial, sans-serif" font-size="16" font-weight="bold" fill="url(#servicioGrad)">Servicio</text>
+  <text x="10" y="55" font-family="Poppins, Arial, sans-serif" font-size="20" font-weight="bold" fill="url(#servicioGrad)">Melgoza</text>
+  <text x="28" y="70" font-family="Inter, Arial, sans-serif" font-size="9" fill="#9CA3AF">Taller Mecánico</text>
+</svg>
