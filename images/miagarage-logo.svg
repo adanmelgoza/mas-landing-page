@@ -1,0 +1,19 @@
+<svg width="200" height="80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="miaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF8B6A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4A90E2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Garage icon -->
+  <path d="M100 10 L70 35 L70 70 L130 70 L130 35 Z" fill="none" stroke="url(#miaGrad)" stroke-width="3"/>
+  <rect x="85" y="50" width="30" height="20" fill="url(#miaGrad)" opacity="0.3"/>
+  <line x1="90" y1="70" x2="90" y2="55" stroke="url(#miaGrad)" stroke-width="2"/>
+  <line x1="110" y1="70" x2="110" y2="55" stroke="url(#miaGrad)" stroke-width="2"/>
+  <circle cx="100" cy="25" r="8" fill="url(#miaGrad)"/>
+  
+  <!-- Text -->
+  <text x="35" y="45" font-family="Poppins, Arial, sans-serif" font-size="24" font-weight="bold" fill="url(#miaGrad)">Mia</text>
+  <text x="25" y="68" font-family="Poppins, Arial, sans-serif" font-size="20" font-weight="600" fill="#9CA3AF">Garage</text>
+</svg>
